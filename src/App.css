@@ -1,0 +1,73 @@
+.chat-header {
+    text-align: center;
+    font-size: 24px;
+    color: #075E54;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ddd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 0.85em;
+    color: #6c757d;
+}
+
+
+
+/* waiting romm's css */
+
+.waiting-room-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.waiting-room-form {
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.join-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
