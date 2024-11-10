@@ -30,6 +30,7 @@ The application is built with real-time messaging, chatroom management, and effi
 Run the following command to add SignalR:
 ```bash
 dotnet add package Microsoft.AspNetCore.SignalR
+```
 
 
 
@@ -44,4 +45,4 @@ dotnet add package Microsoft.AspNetCore.SignalR
 Run the following command to add SignalR:
 ```bash
 npm install @microsoft/signalr
-
+```
